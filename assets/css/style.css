@@ -1,0 +1,102 @@
+.header{
+    /* background-color: #d2e9e3; */
+    background-color: rgba(0,0,0,.5);
+    /* background-color: #c7c6c4; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-info{
+    text-align: center;
+    color: #f8f9fa;
+    /* color: #f2bfab; */
+    /* color: #148e8e; */
+    margin: 20%;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+.sticky-nav{
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 70% { border-color: transparent; } }
+
+h1{
+    font-family: 'Kumar One Outline', cursive;
+    font-size: 70px;
+}
+
+.intro { 
+	font: 100% Quicksand, sans-serif;
+	border-right: .1em solid #f8f9fa;
+	width: 20.5em; 
+	width: 24ch;
+	margin: 0 auto;
+	white-space: nowrap;
+    overflow: hidden;
+    line-height: 40px;
+	-webkit-animation: typing 5s steps(21, end),
+	 blink-caret .5s step-end infinite alternate;
+}
+
+.portfolio{
+    margin: 0 auto;
+}
+
+.col-md-4{
+    padding: 2%;
+}
+
+.card-body{
+    background-color: rgba(0,0,0,.5);
+    color: #f8f9fa;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+.about {
+    background-color: rgba(0,0,0,.5);
+    margin: 0px;
+}
+
+.profile{
+    margin: 0 auto;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.profile-text{
+    padding: 15% 10%;
+    font-size: 20px;
+    color: #f8f9fa;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pp{
+    margin: 0 auto;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #a9a9aa;
+    text-decoration: none;
+}
