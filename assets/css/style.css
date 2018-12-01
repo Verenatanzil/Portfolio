@@ -78,7 +78,7 @@ h1{
 }
 
 .profile-text{
-    padding: 15% 10%;
+    padding: 12% 10%;
     font-size: 20px;
     color: #f8f9fa;
     font-family: 'Quicksand', sans-serif;
@@ -100,3 +100,33 @@ a:hover{
     color: #a9a9aa;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 750px) {
+
+.intro{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+}
+
+@media only screen and (max-width: 515px) {
+
+    .intro{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+
+    .header-info{
+        margin-top: 30%;
+    }
+    
+    }
